@@ -11,19 +11,19 @@
 }
 
 :root {
-    background-color: #17006b;
+    background-color: #f0dff7;
     /* background-image: url('/public/bg7.jpg'); */
     /* background-size: cover;
     background-position: center;
     background-repeat: no-repeat; */
     /* --main-color: url('/public/bg9.JPG'); */
-    --main-color: #680095;
-    --text-color: #17006b;
+    --main-color: #ad57d2;
+    --text-color: #0066ff;
     /* --second-text-color: url('/public/bg9.JPG'); */
     --white-color: #fff;
-    --pages-color: #fff;
-    --border: .1rem solid #1f5f9f;
-    --box-shadow: 0 0 .9rem rgba(162, 136, 224, 0.802);
+    --pages-color: #f0dff7;
+    --border: .1rem solid #680095;
+    --box-shadow: 0 0 .6rem #ad57d2;
 }
 
 body {
@@ -66,7 +66,7 @@ body {
     height: 100%;
     border-top-left-radius: 3rem;
     border-bottom-left-radius: 3rem;
-    background: linear-gradient(to right, #c23c17, #0c9167, #c01e8a);
+    background: linear-gradient(to right, #680095, #ad7bde, #680095);
     /* background-image: url("/public/bg7.jpg");
     background-size: cover;
     background-clip: cover;
@@ -109,8 +109,8 @@ body {
     text-align: center;
     font-size: 3rem;
     margin-bottom: 1rem;
-    color: white;
-    text-shadow: 0px 0px 10px cyan, 0px 0px 20px cyan, 0px 0px 40px cyan, 0px 0px 80px cyan;
+    color: #0066ff;
+    /* text-shadow: 0px 0px 10px #680095, 0px 0px 20px #680095, 0px 0px 30px #680095, 0px 0px 40px #680095; */
     /* background-image: url("/public/bg4.jpg");
     background-size: cover;
     background-clip: text;
@@ -123,7 +123,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #006b25;
+    color: #0066ff;
     /* background-image: url("/public/bg4.jpg");
     background-size: cover;
     background-clip: text;
@@ -136,7 +136,7 @@ body {
     object-fit: cover;
     border-radius: 50%;
     border: .25rem solid var(--main-color);
-    box-shadow: 0 0 2.5rem rgba(183, 159, 239, 0.802);
+    box-shadow: 0 0 2.5rem #b79fefcd;
     margin-bottom: .8rem;
     transition: .5s ease;
 }
@@ -148,7 +148,7 @@ body {
 .profile-page h1 {
     font-size: 2.5rem;
     line-height: 1;
-    color: #006b25;
+    color: #680095;
     /* background-image: url("/public/bg4.jpg");
     background-size: cover;
     background-clip: text;
@@ -158,7 +158,7 @@ body {
 
 .profile-page h3 {
     font-size: 1.5rem;
-    color: #680095;
+    color: #0066ff;
     /* background-image: url("/public/bg9.JPG");
     background-size: cover;
     background-clip: text;
@@ -181,7 +181,7 @@ body {
     font-size: 2.5rem;
     margin: 0 .1rem;
     transition: .5s;
-    color: pink;
+    color: #680095;
     /* background-image: url("/public/bg2.jpg");
     background-size: cover;
     background-clip: text;
@@ -190,14 +190,14 @@ body {
 }
 
 .profile-page .social-media a:hover {
-    background: pink;
+    background: #0066ff;
     color: var(--white-color);
 }
 
 .profile-page p {
     text-align: center;
     font-weight: 550;
-    color: #006b25;
+    color: #0066ff;
     /* background-image: url("/public/bg7.jpg");
     background-size: cover;
     background-clip: text;
@@ -219,7 +219,6 @@ body {
     background: var(--main-color);
     border: var(--border);
     border-radius: 1rem;
-    box-shadow: var(--box-shadow);
     font-size: 1.2rem;
     color: var(--white-color);
     font-weight: 800;
@@ -229,16 +228,16 @@ body {
 
 .btn:hover {
     background: transparent;
-    color: var(--main-color);
+    color: #0066ff;
 }
 
 .btn-box .btn:nth-child(2) {
     background: transparent;
-    color: var(--main-color);
+    color: #0066ff;
 }
 
 .btn-box .btn:nth-child(2):hover {
-    background: var(--main-color);
+    background: #ad57d2;
     color: var(--white-color);
 }
 
@@ -296,7 +295,7 @@ body {
 
 .workeduc-content .year {
     font-weight: 900;
-    color: #006b25;
+    color: #680095;
     /* background-image: url("/public/bg9.JPG");
     background-size: cover;
     background-clip: text;
@@ -314,7 +313,7 @@ body {
 .workeduc-content h3 {
     font-size: 1rem;
     font-weight: 900;
-    color: #e01f0a;
+    color: #0066ff;
     /* background-image: url("/public/bg.jpg");
     background-size: cover;
     background-clip: text;
@@ -324,7 +323,7 @@ body {
 
 .workeduc-content p {
     font-weight: 700;
-    color: #17006b;
+    color: #680095;
     /* background-image: url("/public/bg7.jpg");
     background-size: cover;
     background-clip: text;
@@ -336,11 +335,10 @@ body {
     position: absolute;
     font-size: 2rem;
     font-weight: 700;
-    text-shadow: var(--box-shadow);
     bottom: 1.2rem;
     left: 50%;
     transform: translateX(-50%);
-    color: #006b25;
+    color: #680095;
     /* background-image: url("/public/bg9.JPG");
     background-size: cover;
     background-clip: text;
@@ -356,8 +354,7 @@ body {
     height: 2.5rem;
     cursor: pointer;
     font-size: 3rem;
-    text-shadow: var(--box-shadow);
-    color: #17006b;
+    color: #680095;
     /* background-image: url("/public/bg9.JPG");
     background-size: cover;
     background-clip: text;
@@ -380,7 +377,7 @@ body {
 .skills-box {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: .5rem;
 }
 
 .skills-box .skills-content {
@@ -388,10 +385,10 @@ body {
 }
 
 .skills-content h3 {
-    font-size: 1.7rem;
+    font-size: 1rem;
     line-height: 1;
     margin-bottom: .3rem;
-    color: #006b25;
+    color: #680095;
     /* background-image: url("/public/bg4.jpg");
     background-size: cover;
     background-clip: text;
@@ -402,7 +399,7 @@ body {
 .skills-content .content {
     display: flex;
     flex-wrap: wrap;
-    gap: .6rem;
+    gap: .5rem;
 }
 
 .skills-content .content span {
@@ -411,13 +408,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 7.5rem;
-    height: 4.9rem;
+    height: 4.3rem;
     border: var(--border);
     border-radius: .5rem;
-    font-size: 100%;
+    font-size: .9rem;
     font-weight: 850;
     transition: .3s ease;
-    color: #3808e6;
+    color: #b300ff;
     /* background-image: url("/public/bg7.jpg");
     background-size: cover;
     background-clip: text;
@@ -431,7 +428,7 @@ body {
 
 .skills-content .content span i {
     font-size: 2.7rem;
-    color: #680095;
+    color: #0066ff;
     /* background-image: url("/public/bg9.JPG");
     background-size: cover;
     background-clip: text;
@@ -446,7 +443,6 @@ body {
     border: var(--border);
     border-radius: .5rem;
     overflow: hidden;
-    box-shadow: var(--box-shadow);
 }
 
 .portfolio-box .img-box img {
@@ -473,7 +469,7 @@ body {
 .portfolio-box .info-box .info-title h2 {
     font-size: 1.7rem;
     font-weight: 900;
-    color: #006b25;
+    color: #680095;
     /* background-image: url("/public/bg1.jpg");
     background-size: cover;
     background-clip: text;
@@ -485,7 +481,7 @@ body {
     display: flex;
     align-items: center;
     font-weight: 900;
-    color: #17006b;
+    color: #0066ff;
     /* background-image: url("/public/p1.JPG");
     background-size: cover;
     background-clip: text;
@@ -510,7 +506,7 @@ body {
 .portfolio-box .info-box p {
     font-weight: 700;
     font-size: medium;
-    color: #6b0030;
+    color: #ad57d2;
     /* background-image: url("/public/bg7.jpg");
     background-size: cover;
     background-clip: text;
@@ -541,7 +537,6 @@ body {
     background: transparent;
     border: var(--border);
     border-radius: 1rem;
-    box-shadow: var(--box-shadow);
     padding: .8rem;
     font-size: 1rem;
     margin-bottom: 1.5rem;
@@ -549,7 +544,7 @@ body {
 
 .contact-box .field::placeholder {
     font-weight: 900;
-    color: #006b25;
+    color: #ad7bde;
     /* background-image: url("/public/bg4.jpg");
     background-size: cover;
     background-clip: text;
@@ -571,10 +566,9 @@ body {
     background: transparent;
     border: var(--border);
     border-radius: 1rem;
-    box-shadow: var(--box-shadow);
     font-size: 2rem;
     font-weight: 700;
-    color: #17006b;
+    color: #0066ff;
     /* background-image: url("/public/p1.JPG");
     background-size: cover;
     background-clip: text;
@@ -589,7 +583,6 @@ body {
 .back-profile:hover {
     background: var(--main-color);
     color: var(--white-color);
-    text-shadow: var(--box-shadow);
 }
 
 .back-profile p {
@@ -598,7 +591,7 @@ body {
     left: 50%;
     transform: translateX(-50%) scale(.5);
     font-size: 2.5rem;
-    color: #680095;
+    color: #0066ff;
     /* background-image: url("/public/p1.JPG");
     background-size: cover;
     background-clip: text;
